@@ -1,0 +1,15 @@
+[project]
+name = "quant-finance-playground"
+version = "0.1.0"
+description = "Small, reproducible quantitative finance learning projects."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.29",
+    "jupyterlab>=4.2",
+    "matplotlib>=3.9",
+    "numpy>=2.0",
+]
+
+[tool.uv]
+package = false
